@@ -1,0 +1,650 @@
+*, html, body
+{
+	margin:0;
+	padding: 0;
+	
+}
+body{
+	height: 3000px;
+}
+
+#wrapper{
+	margin-left:auto;
+	margin-right: auto;
+	width:100%;
+}
+
+header
+{
+	height:112px;
+	line-height:112px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+.secondary
+{
+	background-color: deepskyblue;
+	box-shadow:0px 0px 17px 0px;
+	transition: all 0.5s ease-in;
+}
+
+ul
+{
+	list-style: none;
+
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+header nav
+{
+	float: right;
+	
+}
+
+header nav ul li a
+{
+	padding-right: 30px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.5s;
+}
+
+header nav ul li a:hover
+{
+	text-decoration:none;
+	color: orange;
+}
+
+.img1
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/battleship5.jpg);
+	background-size: 100% 100%;
+}
+
+.slider, .slider ul,.slider ul li
+{
+	height: 610px;
+	width:100%;
+	color: white;
+	text-align: center;
+	
+}
+
+.slider h2
+{
+	font-weight: bold;
+	margin-top:220px;
+}
+
+.slider span
+{
+	color: orange;
+}
+
+.slider a
+{
+	padding: 10px 40px;
+}
+
+.img2
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Images/ventilators1.jpg);
+	background-size: 100% 100%;
+}
+
+.img3
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Images/battleship16.jpg);
+	background-size: 100% 100%;
+}
+
+.intro-area
+{
+	position: relative;
+	padding: 125px 0px;
+	text-align: center;
+	background-color: white;
+}
+
+.intro-area h2
+{
+	color: deepskyblue;
+}
+
+.sub-heading
+{
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.sub-heading:before
+{
+	content:"";
+	position: absolute;
+	top:100%;
+	left: 50%;
+	margin-left: -3%;
+	width: 6%;
+	height: 1px;
+	background-color: deepskyblue;
+	z-index: 1;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-ms-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	transition: 0.3s ease;
+}
+
+.sub-heading:hover:before
+{
+	width: 24%;
+	margin-left: -137px;
+}
+
+
+
+.sub-heading:after
+{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left:-12%;
+	width: 24%;
+	height: 1px;
+	background-color: #e1e1e1;
+}
+
+.sub-heading p
+{
+	color: #818181;
+	display: inline-block;
+	padding: 0px 0px 5px;
+	position: relative;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+}
+
+.intro-block
+{
+	position: relative;
+	background: #f7f7f7;
+	margin: 30px 0px 0px;
+	text-align: center;
+	padding: 10px 5px 10px;
+	/*size: 45px, 25px, 45px;*/
+}
+
+.intro-block:hover, .intro-block.active
+{
+	background: #0AABE1;
+}
+
+.intro-block:hover
+{
+	transition: .6s ease;
+	-webkit-transition: .6s ease;
+	-moz-transition: .6s ease;
+	-o-transition: .6s ease;
+	-ms-transition: .6s ease;
+	box-shadow: 0px 0px 17px 0px;
+}
+
+.intro-block .intro-icon
+{
+	position:absolute;
+	top: -11px;
+	left: 50%;
+	margin-left:-11px;
+}
+
+.intro-block .fas
+{
+	width: 23px;
+	height: 23px;
+	font-size: 10px;
+	color: white;
+	line-height: 2;
+	background: deepskyblue;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 5px #CCEEF9;
+}
+
+.intro-block:hover .fas, .intro-block.active .fas
+{
+	background:white;
+	color: deepskyblue;
+	box-shadow: 0px 0px 0px 10px deepskyblue;
+}
+
+.intro-block h3
+{
+	font-size: 12px;
+	color: deepskyblue;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.intro-block p
+{
+	color: #505050;
+}
+
+.intro-block:hover h3, .intro-block:hover p
+{
+	color: #f6f6f6;
+}
+
+.feature-area
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(Images/battleship13.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size:100% 100%
+}
+
+.title h2
+{
+	color: white;
+	font-weight: bold;
+}
+
+.title p
+{
+	color: white;
+}
+
+.single-feature h3, p
+{
+	color: white;
+}
+
+.single-feature
+{
+	position: relative;
+	width:200px;
+	height: 180px;
+	float: left;
+	padding:20px 20px 3px;
+	text-align: center;
+	border-right: 1px solid #65c8e5;
+	border-bottom: 1px solid #65c8e5;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease ;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.feature-block: after;
+{
+	content: "";
+	display: table;
+}
+
+.feature-block: after;
+{
+	clear:both;
+}
+
+
+.feature-icon
+{
+	display: inline-block;
+	margin-bottom:5px;
+}
+
+.single-feature i.fas
+{
+	border: 2px solid #fff;
+	padding: 10px;
+	border-radius: 50%;
+	font-size: 15px;
+	background-color: #00a7dd;
+	color: white;
+	width: 40px;
+	height: 40px;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease ;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.feature-block:hover .single-feature
+{
+	border-color:white;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease ;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.single-feature:hover .featured-icon .fas
+{
+	border:2px solid deepskyblue;
+	background: white;
+	color: deepskyblue;
+	
+}
+
+.feature-area .feature-mockup .img-responsive
+{
+	box-shadow:0px 0px 17px 0px;
+	color: deepskyblue;
+}
+
+.feature-area .feature-mockup .img-responsive:hover
+{
+	box-shadow:0px 0px 35px 0px;
+	transition: .6s ease;
+	-webkit-transition: .6s ease;
+	-moz-transition: .6s ease;
+	-o-transition: .6s ease;
+	-ms-transition: .6s ease;
+	color: deepskyblue;
+}
+/*
+.single-feature:nth-of-type(3n)
+{
+	border-right:none;
+}
+
+.single-feature:nth-of-type(4)
+{
+	border-bottom:none;
+}
+
+.single-feature:nth-of-type(5)
+{
+	border-bottom:none;
+}
+
+.single-feature:nth-of-type(6)
+{
+	border-bottom:none;
+}
+*/
+.feature-area
+{
+	padding: 40px 0px 0px 200px;
+	position: relative;
+}
+
+.title .sub-heading p
+{
+	color: white;
+}
+
+.more-feature-area .title h2
+{
+	color: deepskyblue;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.more-feature-area
+{
+	padding:100px 0px;
+}
+
+.more-feature-area .img-responsive
+{
+	box-shadow:0px 0px 17px 0px;
+	transition: all 0.5s;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.more-feature-area .img-responsive:hover 
+{
+	box-shadow:0px 0px 17px 0px;
+	color: deepskyblue;
+	transition: .6s ease;
+	-webkit-transition: .6s ease;
+	-moz-transition: .6s ease;
+	-o-transition: .6s ease;
+	-ms-transition: .6s ease;
+}
+
+.feature-list ul
+{
+	list-style: none;
+	margin-left: 40px;
+}
+
+.feature-list li
+{
+	position: relative;
+	margin-bottom: 30px;
+	padding-left: 200px;
+}
+
+.feature-list li:hover i
+{
+	color:white;
+	background-color: deepskyblue;
+	transition: .6s ease;
+	-webkit-transition: .6s ease;
+	-moz-transition: .6s ease;
+	-o-transition: .6s ease;
+	-ms-transition: .6s ease;
+}
+
+.feature-icon
+{
+	position: absolute;
+	left:120px;
+}
+
+.feature-icon i
+{
+	width: 63px;
+	height: 63px;
+	text-align: center;
+	font-size: 30px;
+	background: white;
+	color: deepskyblue;
+	color:deepskyblue;
+	border-radius: 50%;
+	border:2px solid deepskyblue;
+	line-height: 63px;
+	
+}
+
+.feature-details h3
+{
+	color:deepskyblue;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.testimonials h2
+{
+	color: orange;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top:10px;
+	font-size: 20px;
+}
+
+.testimonials h3
+{
+	color: white;
+	font-weight: bold;
+	padding-bottom: 0px;
+	font-size: 25px;
+}
+
+.testimonials
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(Images/battleship13.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	color: white;
+	margin-top:-50px;
+	background-repeat: no-repeat;
+
+}
+
+.testimonials .carousel-indicators
+{
+
+	bottom: -60px;
+
+}
+
+.testimonials .sub-heading p
+{
+	color: white;
+}
+
+.testimonials .carousel-inner
+{
+	padding-top: 25px;
+}
+
+
+.testimonials .carousel-inner i
+{
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	background-color:orange;
+	border-radius: 100%;
+	/*border:6px solid deepskyblue;*/
+	line-height: 65px;
+	box-shadow:0px 0px 27px 0px white;
+}
+
+.testimonials .carousel-indicators li.active
+{
+	background-color: orange;
+}
+
+
+.contact-area
+{
+	padding: 100px 0px;
+}
+
+.divider
+{
+	border-right: 1px solid gray;
+}
+
+.contact-area h3
+{
+	text-transform: uppercase;
+	margin-bottom:18px;
+}
+
+.contact-area h4
+{
+	color: #3a3a3a;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom:5px;
+	letter-spacing: 0.025em;
+}
+
+.contact-area span
+{
+	display: block;
+	color: #3a3a3a;
+	font-size: 12px;
+	line-height: normal;
+	letter-spacing: 0.025em;
+}
+
+.contact-area ul li
+{
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.contact-area ul li:last-child
+{
+	margin-bottom: 0;
+}
+
+.contact-address ul li .fas
+{
+	float: center;
+	width: 25px;
+	color: deepskyblue;
+	font-size:25px;
+	/*padding-left: 5px;*/
+}
+
+.contact-address ul li
+{
+	float: center;
+	width: 260px;
+	/*padding-left:15px;*/
+}
+
+.contact-email ul li .fas
+{
+	float: center;
+	width: 25px;
+	color: deepskyblue;
+	font-size:25px;
+	/*padding-left: 5px;*/
+}
+
+.contact-email ul li
+{
+	float: center;
+	width: 260px;
+	/*padding-left:15px;*/
+}
+
+
+.contact-block
+{
+	padding-left: 55px;
+}
+
+
+/*
+.contact-area .form-control, .contact-area textarea
+{
+	font-family: 'Roboto', sans-serif;
+	background: #f8fdff;
+	border: 1px solid #a5d3eb;
+	padding: 10px 12px;
+	color: #bdbdbd;
+	height: 45px;
+	font-weight: 400;
+	border-radius:0;
+}
+
+.contact-area .form-group
+{
+	margin-bottom: 34px;
+}
+
+.contact-area textarea
+{
+	min-height: 125px;
+}
+
+.contact-area .default-btn
+{
+	padding: 10px;
+}
+*/
